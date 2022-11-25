@@ -1,0 +1,118 @@
+@font-face {
+    font-family: GOW;
+    src: url(Berserker-Regular.ttf);
+    }
+
+
+body{
+    background-image:url(https://live.staticflickr.com/65535/52521316321_846f2690dc_b.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+}
+
+.text{
+    color:  white;
+    text-align: center;
+    
+    font-size: 40px;
+    font-family:GOW;
+    
+}
+
+.text1{
+    color:  white;
+    text-align: center;
+    
+    font-size: 30px;
+    font-family:GOW;
+
+}
+.alink {
+    text-decoration: none;
+    color: white;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.cuadro3 {
+    background-color: #043c54;
+    border: solid 5px #2bbcf2;
+    border-radius: 15px;
+    color: #2bbcf2;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.border2 {
+    border-radius: 10px;
+}
+
+.fondo{
+    background-color: rgba(4,60,84 , .6);
+    border: solid 7px #2bbcf2;
+    width: 70%;
+    border-radius: 30px;
+    padding: 1%;
+    margin-left: 300px;
+    
+    
+}
+
+#copyright {
+    background-color: rgba(0,0,0, .6);
+
+    color: white;
+    font-family:GOW;
+    font-size: 30px;
+    float: left;
+    height: 100%;
+    padding: 30px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+
+/*Encierro de integrante e imagen*/
+#contactos table tr th {
+    border-radius:10px;
+    padding:25px;
+    width:25%;
+}
+
+#contactos table tr th:hover {
+    background-color:#043c54;
+}
+
+/*Nombre integrantes*/
+#contactos table tr th a{
+    color:white;
+    letter-spacing:1px;
+    font-family:GOW;
+    font-size:35px;
+    font-weight:bold;
+}
+
+#contactos table tr th a:hover {
+    color: black;
+}
+
+#contactos table tr th a img {
+    border-radius:3%;
+    margin-top:25px;
+    width:90%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}   
